@@ -1,13 +1,29 @@
+<!-- Template -->
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Inicio</router-link> |
+      <router-link to="login">Login</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
+
+<!-- Script -->
+<script>
+import { mapActions } from 'vuex';
+export default {
+  mounted() {
+    this.getDataProductos()
+  },
+  methods: {
+    ...mapActions(['getDataProductos']),
+  },
+};
+</script>
+
+<!-- Style -->
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -28,5 +44,8 @@
       color: #42b983;
     }
   }
+}
+.modal-content footer, .modal-content header  {
+  display: none;
 }
 </style>
