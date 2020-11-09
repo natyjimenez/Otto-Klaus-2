@@ -17,7 +17,7 @@ npm run build
 
 ### Deploy
 ```
-https://otto-klaus-5a72a.web.app/
+![Deploy](https://otto-klaus-5a72a.web.app/)
 ```
 
 ### Customize configuration
