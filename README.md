@@ -14,10 +14,6 @@ npm run serve
 ```
 npm run build
 ```
-## Deploy
-```
-[Deploy](https://otto-klaus-5a72a.web.app).
-```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
